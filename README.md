@@ -1,0 +1,10 @@
+# Environment Variables =>
+
+DB_URI =\
+SECRET =\
+SESSION_EXPIRE =\
+JWT_SECRET =\
+EMAIL =\
+PASSWORD =\
+PAYMENTID =\
+PAYMENTKEY =
