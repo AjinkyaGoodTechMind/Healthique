@@ -1,0 +1,12 @@
+.Portfoliosdiv{
+    width: 250px;
+    height: 300px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.Portfoliosmaindiv{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: auto;
+    margin-top: 50px;
+}

@@ -1,0 +1,208 @@
+.example {
+  border-radius: 10px;
+  border: 1px solid grey;
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+  background: #f1f1f1;
+}
+
+.searchInputs {
+  padding: 10px;
+  font-size: 17px;
+  border: none;
+  background: #f1f1f1;
+  width: 100%;
+}
+
+form.example button {
+  width: 20%;
+  padding: 10px;
+  background: #d6193f;
+  color: white;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 !important;
+}
+
+form.example button:hover {
+  background: #d6193f;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.pragraphtag {
+  font-size: 50px;
+  font-weight: 700;
+  margin-top: 15px;
+}
+.pragraph {
+  width: 461px;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.FreelanceDiv {
+  display: flex;
+  justify-content: space-between;
+}
+.imagtag {
+  width: 530px;
+}
+.freebtn {
+  display: flex;
+  justify-content: space-between;
+}
+.freelancerBox {
+  width: 80%;
+  height: 260px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: #fafafa;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+.img-div {
+  border-radius: 50%;
+  background-color: #f2fafa;
+  color: black;
+  width: 100px;
+  height: 100px;
+}
+.icon {
+  width: 127px;
+  height: 100px;
+}
+.sec-icon {
+  width: 100px;
+  height: 100px;
+  padding: 16px;
+}
+
+.text-tag {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: left;
+  margin: 30px 0px 5px 0px;
+}
+.small-text {
+  text-align: center;
+  width: 160px;
+}
+.img-content {
+  width: 200px;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.when {
+  background: #d6193f;
+  color: white;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.when2 {
+  background: #d6193f;
+  color: white;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-left: 150px;
+}
+
+.hero {
+  height: 500px;
+}
+
+.heroMain {
+  display: flex;
+  flex-direction: column;
+  margin-left: 150px;
+  margin-top: 20px;
+  width: 50%;
+}
+
+.whenWhere-div {
+  width: 40%;
+  display: flex;
+  margin-top: 300px;
+}
+
+.postedCount {
+  color: black;
+  font-size: 25px;
+}
+
+@media screen and (max-width: 1024px) {
+  .hero {
+    height: 330px;
+  }
+  .heroMain {
+    margin-left: 100px;
+    margin-top: 110px;
+  }
+  .whenWhere-div {
+    margin-top: 80px;
+  }
+  .when {
+    font-size: 15px;
+    padding: 10px;
+    margin-bottom: 2px;
+  }
+
+  .when2 {
+    font-size: 15px;
+    padding: 10px;
+    margin-bottom: 2px;
+    margin-left: 100px;
+  }
+
+  .example {
+    width: 400px;
+    height: 40px;
+  }
+
+  .searchInputs {
+    padding: 5px;
+    height: 30px;
+    font-size: 17px;
+    border: none;
+    background: #f1f1f1;
+    width: 100%;
+  }
+
+  form.example button {
+    height: 30px;
+    width: 15%;
+  }
+
+  .postedCount {
+    color: black;
+    font-size: 20px;
+  }
+}

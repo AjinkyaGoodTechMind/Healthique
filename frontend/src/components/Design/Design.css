@@ -1,0 +1,96 @@
+.cardBox {
+  width: 272px;
+  height: 309px;
+  background-color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+  margin-left: 50px;
+  padding: 10px 10px;
+  text-align: center;
+  padding-top: 30px;
+}
+.card2 {
+  display: flex;
+  justify-content: space-between;
+}
+.cardmainBox {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+}
+
+.programsContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.programsBox {
+  padding: 20px;
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid gray;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.programsBox-title-div {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.programsBox-button-div {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+}
+
+.programsBox-title {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.programsBox-button {
+  background: #d6193f;
+  color: white;
+  border-radius: 5px;
+  width: 120px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.programBox-details {
+  width: 100%;
+  font-size: 20px;
+}
+
+.programsContainer-1 {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 1024px) {
+  .programsBox {
+    height: 180px;
+  }
+  .programsContainer-1 {
+    width: 90%;
+  }
+  .programsBox-title {
+    font-size: 25px;
+    font-weight: 600;
+  }
+}

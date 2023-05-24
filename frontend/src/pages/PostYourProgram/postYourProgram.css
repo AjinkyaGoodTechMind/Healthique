@@ -1,0 +1,59 @@
+.postYourProgram {
+  margin-top: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.postYourProgram-box {
+  border: 1px solid rgb(160, 160, 160);
+  border-radius: 20px;
+  height: 700px;
+  width: 900px;
+  display: flex;
+
+  padding: 30px;
+}
+
+.postYourProgram-box > div > form {
+  flex: 1;
+  width: 80%;
+  margin-left: 60px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.postYourProgram-box > div > form > input {
+  border-radius: 8px;
+  border: 2px solid #dddfe2;
+  outline: none;
+  color: #1d2129;
+  margin: 0.5rem 0;
+  padding: 0.5rem 0.75rem;
+  width: 92%;
+  font-size: 1rem;
+}
+.postYourProgram-box > div > form > textarea {
+  border-radius: 8px;
+  border: 2px solid #dddfe2;
+  outline: none;
+  color: #1d2129;
+  margin: 0.5rem 0;
+  padding: 0.5rem 0.75rem;
+  width: 92%;
+  font-size: 1rem;
+}
+
+.postYourProgram-box > div > form > select {
+  border-radius: 8px;
+  border: 2px solid #dddfe2;
+  outline: none;
+  color: #1d2129;
+  margin: 0.5rem 0;
+  padding: 0.5rem 0.75rem;
+  width: 92%;
+  font-size: 1rem;
+}

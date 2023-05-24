@@ -1,0 +1,50 @@
+http://192.185.129.210/cpanel
+
+http://192.185.129.210
+
+
+http://162.241.125.25:8080/
+162.241.125.25:2087
+https://162.241.125.25:2083
+
+root
+
+CwY2-N0cR(TT
+
+
+healtiqc
+
+Healthique$123$
+
+healthique
+Cpanel@1234@
+
+https://www.youtube.com/watch?v=My3c4IQHq_Y
+
+pm2 start server.js
+
+pm2 start server.js --name Healthique
+
+cd HealthiqueWebsite
+
+pm2 list
+
+pm2 restart server
+
+pm2 reload app_name
+
+pm2 stop app_name
+
+pm2 delete app_name
+
+systemctl reload nginx
+
+systemctl restart nginx
+
+systemctl status nginx
+
+wget https://nodejs.org/download/release/v18.12.0/node-v18.12.0.tar.gz  
+
+cat /etc/redhat-release
+
+cd Healthique

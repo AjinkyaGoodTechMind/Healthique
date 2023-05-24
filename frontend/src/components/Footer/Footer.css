@@ -1,0 +1,26 @@
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(255, 237, 237);
+  margin-top: 30px;
+}
+
+.footermaindiv {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer-main-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer-main-div {
+    flex-wrap: wrap;
+  }
+}

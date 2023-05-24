@@ -1,0 +1,66 @@
+.imgdiv {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+.choosediv {
+  /* display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 36px; */
+  width: 80%;
+  /* margin: auto; */
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.btntag2 {
+  width: 178px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #d6193f;
+  color: white;
+  margin-top: 30px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chooseMain {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chooseDivImage {
+  width: 250px;
+  height: 220px;
+  border-radius: 20px;
+  filter: brightness(0.6);
+}
+
+.chooseDivText {
+  position: absolute;
+  top: 97px;
+  width: 250px;
+  color: white;
+  text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .choosediv {
+    width: 90%;
+  }
+  .chooseDivImage {
+    width: 200px;
+    height: 180px;
+  }
+
+  .chooseDivText {
+    position: absolute;
+    top: 80px;
+    width: 200px;
+  }
+}

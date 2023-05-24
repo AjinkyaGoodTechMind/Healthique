@@ -1,0 +1,50 @@
+.Find-div {
+    width: 90%;
+    height: 600px;
+    background-color: white;
+    margin-left: 103px;
+
+
+}
+
+.find-sec-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.find-text {
+    width: 354px;
+    margin: auto;
+}
+
+.box-card {
+    width: 130px;
+    height: 80px;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+    position: absolute;
+    top: 9%;
+    left: 55%;
+
+}
+
+.box-card2 {
+    width: 180px;
+    height: 80px;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+    position: absolute;
+    top: 30%;
+    left: 72%;
+
+}
+
+.imgtag {
+    position: relative;
+}

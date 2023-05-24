@@ -1,0 +1,147 @@
+.profile {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-main {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  /* flex: 5; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profileContainer {
+  width: 95%;
+  display: flex;
+  justify-content: center;
+}
+
+.profileDiv {
+  width: 90%;
+  /* width: 600px; */
+  /* height: 400px; */
+  border-radius: 20px;
+  background-color: rgb(255, 236, 240);
+  box-shadow: 10px 10px 5px rgba(214, 25, 63, 0.507);
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.profileTitles {
+  font-size: 25px;
+  font-weight: 600;
+  color: gray;
+  margin: 10px 0px;
+}
+
+.profileText {
+  font-weight: 400;
+  color: black;
+  margin-left: 20px;
+}
+
+.profilePic {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 30px;
+}
+
+.profileConainerMain {
+  display: flex;
+  justify-content: space-between;
+}
+
+.profileConainerMain1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.profileConainerMain hr {
+  display: block;
+  width: 95%;
+  height: 2px;
+  border: 0;
+  border-top: 2px solid rgb(214, 25, 63);
+  margin: 1em 0;
+  padding: 0;
+  margin-top: 40px;
+}
+
+.hr2 {
+  display: block;
+  width: 2px;
+  height: 100%;
+  border: 0;
+  border-top: 2px solid rgb(214, 25, 63);
+  margin: 1em 0;
+  padding: 0;
+  margin-top: 40px;
+}
+
+.profileConainerMain1 input {
+  padding: 10px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.editButonDiv {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.editButon {
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: rgb(214, 25, 63);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin: 10px 20px;
+}
+
+/* @media screen and (max-width: 1024px) {
+  .profileDiv {
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+  }
+
+  .profileTitles {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .profileText {
+    font-weight: 400;
+  }
+} */
+
+/* @media screen and (max-width: 400px) {
+  .profileDiv {
+    width: 300px;
+    height: 400px;
+    padding: 20px;
+  }
+
+  .profileTitles {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .profileText {
+    font-weight: 400;
+  }
+} */

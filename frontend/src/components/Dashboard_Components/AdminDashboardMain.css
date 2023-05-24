@@ -1,0 +1,54 @@
+.adminDashboardMain {
+  display: flex;
+  justify-content: center;
+  width: 95%;
+  margin-top: 30px;
+}
+
+.adminDashboardMain-left {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+}
+
+.adminDashboardMain-right {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: flex-end;
+}
+
+.adminDashboardMain-left-cardsContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.adminDashboardMain-right-searchContainer {
+  height: 150px;
+  width: 500px;
+  border-radius: 20px;
+  background: linear-gradient(316.52deg, #0088ff 39.24%, #92ffff 101.9%);
+}
+
+.adminDashboardMain-right-requestCheckingContainer {
+  box-shadow: 2px 2px 5px 2px #8080809c;
+  border-radius: 40px;
+  margin-top: 20px;
+  height: 600px;
+  width: 500px;
+  border-radius: 20px;
+}
+
+.adminDashboardMain-left-card {
+  box-shadow: 2px 2px 5px 2px #8080809c;
+  border-radius: 40px;
+  width: 540px;
+  height: 200px;
+}
+
+.adminDashboardMain-left-salesGrowthContainer {
+  box-shadow: 2px 2px 5px 2px #8080809c;
+  border-radius: 40px;
+  height: 550px;
+  margin-top: 30px;
+}

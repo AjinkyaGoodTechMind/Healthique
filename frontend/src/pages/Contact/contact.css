@@ -1,0 +1,100 @@
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contacts iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.primary-btn {
+  background-color: #d6193f !important;
+  color: #fff !important;
+  padding: 17px 30px;
+  background-color: #fff;
+  color: #d6193f;
+  font-weight: 600;
+  border: none;
+  margin: 30px 10px 0 0;
+  border-radius: 3px;
+  cursor: pointer;
+  box-shadow: 0 24px 36px -11px rgb(0 0 0 / 9%);
+  transition: 0.5s;
+  margin-top: 20px !important;
+}
+
+.contacts .left {
+  width: 700px;
+  height: 700px;
+}
+
+.contacts .right {
+}
+.contacts h1 {
+  font-size: 30px;
+  font-weight: 400;
+}
+.contacts p {
+  color: grey;
+}
+.contacts .items {
+  margin: 30px 0;
+}
+.contacts .box p {
+  font-size: 17px;
+  margin-top: 10px;
+}
+.contacts textarea,
+.contacts input {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  outline: none;
+  border: 1px solid grey;
+}
+form .flexSB input:nth-child(1) {
+  margin-right: 10px;
+}
+.contacts h3 {
+  margin-top: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.contacts span {
+  color: #d6193f;
+  font-weight: 600;
+  font-size: 15px;
+  word-spacing: 5px;
+}
+
+@media screen and (max-width: 1024px) {
+  .contacts .container {
+    flex-direction: column;
+  }
+
+  .map {
+    height: 400px !important;
+  }
+
+  .contacts iframe {
+    height: 50vh;
+  }
+  .contacts .row {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contacts .container {
+    flex-direction: column;
+  }
+  .contacts iframe {
+    height: 50vh;
+  }
+  .contacts .row {
+    width: 100%;
+  }
+}

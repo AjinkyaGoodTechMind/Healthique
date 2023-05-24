@@ -1,0 +1,172 @@
+.membershipPlansHome {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.monthlyYearly {
+  display: flex;
+  /* width: 30%; */
+  justify-content: space-between;
+}
+
+.monthlyYearlyMain {
+  display: flex;
+  margin-top: 40px;
+}
+
+.monthlyYearlyMain > input {
+  accent-color: #d6193f;
+  width: 60px;
+}
+
+.monthlyYearlyMain > span {
+  font-size: 25px;
+}
+
+.plansContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 80%;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.plan {
+  width: 450px;
+  height: 500px;
+  border: 1px solid rgb(184, 184, 184);
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.recommendedPlan {
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.recommendedPlan-header {
+  width: 100%;
+  height: 70px;
+  background-color: #d6193f;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.recommendedPlan-header > span {
+  color: white;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.priceDiv {
+  height: 60px;
+  border-radius: 10px;
+  background-color: #ff8382;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.priceDiv > span {
+  color: black;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.buyNowButton {
+  border: 1px solid #d6193f;
+  height: 50px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #d6193f;
+  font-size: 25px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.buyNowButton2 {
+  height: 50px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d6193f;
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.paymentFormContainer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.342);
+}
+
+.paymentForm {
+  width: 500px;
+}
+
+.cancleIcon {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.planTitle {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.planText {
+  font-size: 20px;
+  font-weight: 400;
+  color: gray;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+  .plan {
+    width: 350px;
+  }
+
+  .recommendedPlan {
+    width: 350px;
+  }
+
+  .plansContainer {
+    width: 90%;
+  }
+
+  .priceDiv > span {
+    font-size: 20px;
+  }
+
+  .recommendedPlan-header > span {
+    font-size: 25px;
+  }
+
+  .planTitle {
+    font-size: 20px;
+  }
+
+  .planText {
+    font-size: 15px;
+  }
+}
